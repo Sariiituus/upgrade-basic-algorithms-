@@ -123,5 +123,27 @@ if (number2 / 2 == number1 || number1 / 5 == number3) {
   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
 
+// Iteración #6: Bucles
 
+// 1.1
+
+for (let i = 0; i <= 9; i++) {
+    console.log(i);
+}
+
+// 1.2
+
+for (let i = 0; i <= 9; i++) {
+    if (i/2===0) {
+        console.log(i);
+    }
+}
+
+// 1.3
+
+for (let i = 0; i < 11; i++) {
+    if (i === 10) console.log('Dorimido!'); {
+        
+    }
+}
 
