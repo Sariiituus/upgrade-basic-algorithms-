@@ -93,6 +93,40 @@ console.log(avenger);
 
 // 1.2
 
+// const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+avengers.splice(0,0, 'IRONMAN');
+avenger = avengers [0];
+console.log(avenger);
+
+// 1.3
+
+alert(avengers.length);
+
+// 1.4
+
+let rickAndMortyCharacters = ["Rick", "Beth", "Jerry"]; // cambia const por let
+rickAndMortyCharacters.push("Morty", "Summer");
+console.log(rickAndMortyCharacters[4]);
+
+// 1.5
+
+// const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+rickAndMortyCharacters.push('Lapiz Lopez')
+console.log(rickAndMortyCharacters);
+rickAndMortyCharacters.pop();
+console.log(rickAndMortyCharacters[0], rickAndMortyCharacters[4])
+
+// 1.6
+
+// const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+rickAndMortyCharacters.splice(1,1);
+console.log(rickAndMortyCharacters);
+console.log(rickAndMortyCharacters[1]);
+
+
 // Iteración #5: Condicionales
 
 const number1 = 10;
@@ -123,6 +157,7 @@ if (number2 / 2 == number1 || number1 / 5 == number3) {
   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
 
+
 // Iteración #6: Bucles
 
 // 1.1
@@ -139,11 +174,17 @@ for (let i = 0; i <= 9; i++) {
     }
 }
 
+
 // 1.3
 
-for (let i = 0; i < 11; i++) {
-    if (i === 10) console.log('Dorimido!'); {
-        
-    }
+
+for (let i = 0; i <= 10; i++) {
+  if (i < 10) {
+      console.log(i, "Intentando dormir")
+  } else {
+      console.log(i, "Dormido")
+  }
 }
+
+
 
